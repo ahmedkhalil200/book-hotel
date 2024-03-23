@@ -1,0 +1,224 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<!-- start -->
+       <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TravelGo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/TraevlGo.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+
+<!-- end -->
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelG0 Booking Form</title>
+ <!-- <link rel="stylesheet" href="style.css">-->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+	body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+	.background{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.booking-form{
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+	.booking-form h2{
+    text-align: center;
+}
+	.booking-form form{
+    display: flex;
+    flex-direction: column;
+}
+	.booking-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+	.booking-form button{
+    margin-top:10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	font-size : 15 ;
+}
+	.booking-form button:hover{
+    background-color: #45a049;
+}
+  </style>
+  
+</head>
+<body>
+<!-- start -->
+  <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8">
+            <ul class="info">
+              <li><i class="fa fa-envelope"></i> TravelGo@company.com</li>
+              <li><i class="fa fa-map"></i> Sunny Isles Beach</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <h1>TravelGo</h1>
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li>
+                  <a href="Offers.html" class="active">Offers</a>
+                </li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-calendar"></i> Schedule a visit</a
+                  >
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+<!--end -->
+    <div class="background">
+        <div class="booking-form">
+            <h2>Booking Form</h2>
+            <form action="booking.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+ 
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+           
+                <label for="destination">Destination:</label>
+                <input type="text" name="destination" id="destination" required>
+           
+                <label for="departure-date">Departure Date:</label>
+                <input type="date" name="departure-date" id="departure-date" required>
+               
+                <label for="return-date">Return Date:</label>
+                <input type="date" name="return-date" id="return-date" required>
+
+                <button type="submit"><h2>Book Now</h2></button>
+            </form>
+        </div>
+    </div>
+	
+	<!--start-->
+	 <footer class="footer-no-gap">
+      <div class="container">
+        <div class="col-lg-12">
+          <p>
+            Copyright © 2025 TravelGo. All rights reserved. Design:
+            <a rel="nofollow" href="#">TravelGo</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+	<!--end-->
+</body>
+</html>
